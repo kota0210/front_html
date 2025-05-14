@@ -2,24 +2,32 @@
 <html>
 <head>
 <meta charset="UTF-8">
- <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="style3.css">
 <title>スキル</title>
 </head>
 <body>
 	<h1>スキル</h1>
 	<form action="/form.php" method="post">
 		<div class = "inputs">
-			【名前】<input type="text" id="name" name="name"/><br/>
-			【言語】
+			<div class = "name">
+			【名前】<br/>
+			<input type="text" id="name" name="name"/><br/>
+			</div>
+			<div class = "lang">
+			【言語】<br/>
 					<input type="checkbox" id="Java" name="lang"/><label for ="Java">Java</label>
 					<input type="checkbox" id="C#" name="lang"/><label for ="C#">C#</label>
 					<input type="checkbox" id="PHP" name="lang"/><label for ="PHP">PHP</label><br/>
-			【経験】<select name ="experience" id = "experience">
+			</div>
+			<div class = "exp">
+			【経験】<br/>
+			<select name ="experience" id = "experience" >
 					<option value ="未経験">未経験</option>
 					<option value ="～1年">～1年</option>
 					<option value ="～3年">～3年</option>
 					<option value ="3年超から">3年超から</option>
 			</select>
+			</div>
 		</div>
 		<div class = "sent">
 			<input type="submit" value="送信する" />

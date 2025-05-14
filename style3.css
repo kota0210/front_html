@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+h1{
+	text-align:center;
+	background:#FF9933;
+	font-size: 32px;
+}
+
+body{
+	text-align:center;
+	background:#FFFF88;
+	font-size: 28px;
+}
+
+input[type=checkbox]{
+		width:			15px;
+	height:			15px;
+	-moz-transform:		scale(1.4);
+	-webkit-transform:	scale(1.4);
+	transform:		scale(1.4);
+}
+input[type=select]{
+		width:			15px;
+	height:			15px;
+	-moz-transform:		scale(1.4);
+	-webkit-transform:	scale(1.4);
+	transform:		scale(1.4);
+}
