@@ -12,6 +12,25 @@ body{
 	font-size: 28px;
 }
 
+.name{
+	margin:30px
+}
+
+.lang{
+	margin:30px
+}
+
+.exp{
+	margin:30px
+}
+
+.button{
+	width: 100px;
+    padding: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
 input[type=checkbox]{
 		width:			15px;
 	height:			15px;
