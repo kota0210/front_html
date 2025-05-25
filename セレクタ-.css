@@ -9,6 +9,25 @@ h1, h2{
 }
 
 
+/*idによる指定*/
 #signup{
 	background-color: black;
 }
+
+/*隣接セレクタ－*/
+h1 + p{
+		color:white;
+}
+
+/*直下セレクター*/
+
+div > li{
+		color:white;
+}
+
+/*属性セレクター*/
+input[type = "text"]{
+	width: 300px;
+	color:white;
+}
+
