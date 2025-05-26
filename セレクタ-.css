@@ -35,3 +35,11 @@ input[type = "text"]{
 		color:white;
 }
 
+/*ボーダープロパティ*/
+h1{
+	border-width:5px;
+	border-color:black;
+	border-left-width:8px;
+	border-style:solid;
+}
+
